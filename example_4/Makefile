@@ -4,3 +4,4 @@ b := 'one two' # not recommended as this sets b to "'one two'" as a variable its
 all:
 	printf '$(a)'
 	printf ${b}
+	echo $(a)
